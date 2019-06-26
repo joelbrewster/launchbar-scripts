@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>icon-menu.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>mackmac.net.LaunchBar.action.menubar-search</string>
+	<key>CFBundleName</key>
+	<string>Menubar Search</string>
+	<key>CFBundleVersion</key>
+	<string>1.3</string>
+	<key>LBAbbreviation</key>
+	<string>mb</string>
+	<key>LBArgument</key>
+	<string>String</string>
+	<key>LBDebugLogEnabled</key>
+	<true/>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBArgument</key>
+		<string>String</string>
+		<key>LBAuthor</key>
+		<string>Jordi Clement</string>
+		<key>LBEmail</key>
+		<string>jclement@dds.nl</string>
+		<key>LBResult</key>
+		<string>List of menu bar items including shortcuts</string>
+		<key>LBSummary</key>
+		<string>Provide quick access to the menu bar for the front-most application through Launchbar. Based on an Alfred workflow from Ted Wise: https://github.com/ctwise/alfred-workflows/tree/master/menu-bar-search</string>
+		<key>LBTwitter</key>
+		<string>@jordicl</string>
+		<key>LBWebsite</key>
+		<string>https://github.com/jordicl/launchbar-menubar-search</string>
+	</dict>
+	<key>LBResult</key>
+	<string>List of menu bar items including shortcuts</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBLiveFeedbackEnabled</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBRunInBackground</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>main.rb</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

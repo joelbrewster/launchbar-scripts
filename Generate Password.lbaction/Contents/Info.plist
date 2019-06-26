@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>font-awesome:fa-lock</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.renaghan.launchbar.GeneratePassword</string>
+	<key>CFBundleName</key>
+	<string>Generate Password</string>
+	<key>CFBundleVersion</key>
+	<string>6.1</string>
+	<key>LBDebugLogEnabled</key>
+	<true/>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Padraic Renaghan</string>
+		<key>LBEmail</key>
+		<string>prenagha@renaghan.com</string>
+		<key>LBSummary</key>
+		<string>Generate passwords, return results, and copy first to the clipboard. Uses https://github.com/bbusschots/hsxkpasswd for word passwords.</string>
+		<key>LBTwitter</key>
+		<string>@prenagha</string>
+		<key>LBWebsiteURL</key>
+		<string>https://prenagha.github.io/launchbar/generate.html</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>generate.js</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
